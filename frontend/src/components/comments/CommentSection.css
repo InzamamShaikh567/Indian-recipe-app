@@ -1,0 +1,64 @@
+.comment-section {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid var(--border-primary);
+}
+
+.comment-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.comment-new {
+  margin-bottom: 24px;
+}
+
+.comment-login-prompt {
+  background: var(--bg-secondary);
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.comment-login-prompt a {
+  color: var(--color-saffron);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-empty {
+  text-align: center;
+  padding: 30px;
+  color: var(--text-tertiary);
+}
+
+.comment-section-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  color: var(--text-secondary);
+}
+
+.comment-section-loading .spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--border-primary);
+  border-top-color: var(--color-saffron);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

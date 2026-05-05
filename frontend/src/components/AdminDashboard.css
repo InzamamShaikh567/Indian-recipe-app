@@ -1,0 +1,177 @@
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.admin-header h1 {
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.back-btn {
+  padding: 0.5rem 1rem;
+  background: var(--color-gray-500);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: var(--color-gray-600);
+}
+
+.users-section,
+.user-detail-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.users-section h2,
+.user-detail-section h2 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+.no-users,
+.no-recipes {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.users-table {
+  overflow-x: auto;
+}
+
+.users-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-secondary);
+}
+
+.users-table th {
+  background: var(--bg-tertiary);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.users-table tr:hover {
+  background: var(--bg-secondary);
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  margin-right: 0.25rem;
+}
+
+.view-btn {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.view-btn:hover {
+  background: var(--color-primary-hover);
+}
+
+.edit-btn {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.edit-btn:hover {
+  background: var(--color-primary-hover);
+}
+
+.delete-btn {
+  background: var(--color-danger);
+  color: var(--color-white);
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.user-detail-card {
+  display: grid;
+  gap: 2rem;
+}
+
+.user-info {
+  background: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+}
+
+.user-info h3 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+.user-info p {
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+}
+
+.user-recipes h3 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.recipe-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+}
+
+.recipe-card h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--text-primary);
+}
+
+.recipe-meta {
+  margin: 0 0 1rem 0;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  text-transform: capitalize;
+}
+
+.recipe-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dashboard-loading {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary);
+}

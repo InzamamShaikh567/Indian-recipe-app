@@ -1,0 +1,115 @@
+.notifications-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.notifications-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.notifications-header h1 {
+  font-size: 2rem;
+  color: var(--text-primary);
+}
+
+.notifications-mark-all {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: opacity 0.2s;
+}
+
+.notifications-mark-all:hover {
+  opacity: 0.9;
+}
+
+.notifications-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-secondary);
+}
+
+.notifications-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.notifications-empty h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.notifications-empty p {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.notification-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-left: 3px solid transparent;
+}
+
+.notification-item:hover {
+  background: var(--bg-hover);
+}
+
+.notification-unread {
+  border-left-color: var(--primary);
+  background: var(--bg-primary);
+}
+
+.notification-icon {
+  color: var(--primary);
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.notification-unread .notification-icon {
+  color: var(--primary);
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification-text {
+  color: var(--text-primary);
+  margin: 0 0 0.3rem 0;
+  line-height: 1.5;
+}
+
+.notification-time {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.notifications-loading {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary);
+}
