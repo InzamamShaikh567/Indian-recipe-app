@@ -491,16 +491,7 @@ This project demonstrates:
 ## 🔧 Future Enhancements
 
 Potential improvements:
-1. User authentication and authorization
-2. Recipe search and filtering
-3. Image upload functionality
-4. Recipe rating and reviews
-5. Social sharing features
-6. Mobile app development
-7. Advanced theming options
-8. Recipe import/export
-9. Nutritional information
-10. Shopping list generation
+1. Image upload functionality
 
 ---
 
