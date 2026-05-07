@@ -1,4 +1,5 @@
 # Recipe Application - Technical Documentation
+## live website: https://recipe-frontend-singleppol.vercel.app/
 ## Complete Workflow & Architecture Guide
 
 ---
